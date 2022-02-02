@@ -5,11 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-
+    apiKey: "AIzaSyBYzdsYr3gVaPlM0NKBVShMVsIFLox75ag",
+    authDomain: "fir-course-recording-6f53e.firebaseapp.com",
+    projectId: "fir-course-recording-6f53e",
+    storageBucket: "fir-course-recording-6f53e.appspot.com",
+    messagingSenderId: "313700372966",
+    appId: "1:313700372966:web:b9a5ccc9df9e12c8b38627",
   },
-  api: {
-
-  }
+  api: {},
 };
 
 /*
