@@ -41,12 +41,12 @@ export class AboutComponent {
     }
 
     onReadDoc() {
-        this.db.doc("/courses/2hVPsio8CWHYyhZ5Lkpj").get().subscribe(
-            snap => {
-                console.log(snap.id);
-                console.log(snap.data());
-            }
-        );
+        this.db
+          .doc("/courses/2hVPsio8CWHYyhZ5Lkpj")
+          .valueChanges()
+          .subscribe(course => {
+            console.log(course);
+          });
     }
 
     onReadCollection() {
