@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  useEmulators: true,
   firebase: {
     apiKey: "AIzaSyBYzdsYr3gVaPlM0NKBVShMVsIFLox75ag",
     authDomain: "fir-course-recording-6f53e.firebaseapp.com",
